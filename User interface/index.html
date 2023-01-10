@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home Automation</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Lights</a>
+      <a href="#">Thermostat</a>
+      <a href="#">Security</a>
+      <a href="#">About</a>
+    </nav>
+    <main>
+      <h1>Home Automation</h1>
+      <div id="video-container">
+        <video id="video" autoplay></video>
+      </div>
+      <div id="table-container">
+        <table>
+          <tr>
+            <th>Appliance</th>
+            <th>Power Consumption (Watts)</th>
+          </tr>
+          <tr>
+            <td>LR Light</td>
+            <td>32</td>
+          </tr>
+          <tr>
+            <td>LR Fan</td>
+            <td>16</td>
+          </tr>
+          <tr>
+            <td>BR Light</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>BR Fan</td>
+            <td>-</td>
+          </tr>
+          <!-- Add additional rows for appliances -->
+        </table>
+      </div>
+      <div id="controls">
+        <button id="light-switch">Toggle Light</button>
+        <div id="power-display"></div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
